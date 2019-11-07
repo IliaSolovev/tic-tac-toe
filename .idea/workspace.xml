@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fbbd70-03ae-4143-8be8-858ec9dd236f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Cell.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/CellContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPickerContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Cross.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/CrossItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/GameBox.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/GameForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/InfoTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Score.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTableItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoretableContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Zero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styled/Styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/GameReduser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/Cell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/Cells/Cell.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/CellContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/Cells/CellContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/ColorPicker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPicker/ColorPicker.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/ColorPickerContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPicker/ColorPickerContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/Cross.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/Cells/Cell/Cross/Cross.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/CrossItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/Cells/Cell/Cross/CrossItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/GameBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/GameBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/GameForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/GameForm/GameForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/InfoTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/InfoTable/InfoTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/Score.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable/Score.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/ScoreTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable/ScoreTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/ScoreTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable/ScoreTableItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/ScoretableContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable/ScoretableContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBox/Zero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBox/Cells/Cell/Zero/Zero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/GameReduser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/GameReduser.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +54,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox\GameForm" />
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox\Cells\Cell\Cross" />
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox\Cells\Cell\Zero" />
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox\InfoTable" />
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox\ScoreTable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox" />
     </key>
@@ -118,8 +117,16 @@
       <workItem from="1573060925234" duration="5883000" />
       <workItem from="1573069769500" duration="2507000" />
       <workItem from="1573107013374" duration="4716000" />
-      <workItem from="1573128134002" duration="45000" />
+      <workItem from="1573128134002" duration="2789000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.0">
+      <created>1573128214883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573128214883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0" />
   </component>
 </project>

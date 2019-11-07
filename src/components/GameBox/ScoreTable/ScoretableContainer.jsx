@@ -4,9 +4,7 @@ import ScoreTable from "./ScoreTable";
 import {connect} from "react-redux";
 import Score from "./Score";
 
-const ScoreTableContainer = ({crossWinsCount, zeroWinsCount, winsTable, ...props}) => {
-
-  const StyledScoreTableContainer = styled.div`
+const StyledScoreTableContainer = styled.div`
     display: inline-block;
     position: relative;
     margin-top: 15px;
@@ -15,8 +13,11 @@ const ScoreTableContainer = ({crossWinsCount, zeroWinsCount, winsTable, ...props
     width: 400px;
     height: 400px;
     vertical-align: top;
-    
 `;
+
+const ScoreTableContainer = (props) => {
+
+  let {crossWinsCount, zeroWinsCount, winsTable} = props;
 
   return (
     <StyledScoreTableContainer>
@@ -25,6 +26,7 @@ const ScoreTableContainer = ({crossWinsCount, zeroWinsCount, winsTable, ...props
       <ScoreTable winsTable={winsTable}/>
     </StyledScoreTableContainer>
   )
+
 };
 
 const mapStateToProps = (state) => ({

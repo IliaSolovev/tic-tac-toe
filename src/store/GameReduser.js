@@ -121,7 +121,7 @@ export const ChangeField = (size) => (dispatch) => {
   }));
 };
 
-export const ChangeGameState = (currentArray, currentPlayer, coordinate, size, countStep, indexI, indexJ) => (dispatch) => {
+export const ChangeGameState = (currentArray, currentPlayer, coordinate, size, countStep,) => (dispatch) => {
   const newArr = currentArray.map((arr, arrIndex) => {
     return arr.map((item, itemIndex) => {
       if (item === playerCross || item === playerZero) {
@@ -140,15 +140,15 @@ export const ChangeGameState = (currentArray, currentPlayer, coordinate, size, c
   dispatch(changePlayer(newPlayer));
   dispatch(addStep());
   if (countStep >= size) {
-    if (isWin(newArr, currentPlayer, indexI, indexJ, size)) {
+    const winArr = isWin(newArr, currentPlayer, coordinate[0], coordinate[1], size);
+    if (winArr) {
       dispatch(setWin(currentPlayer));
-
       if (currentPlayer === playerCross) {
         dispatch(addCrossWinsCount());
       } else {
         dispatch(addZeroWinsCount());
       }
-      dispatch(setWinArray(isWin(newArr, currentPlayer, indexI, indexJ, size)));
+      dispatch(setWinArray(winArr));
     }
   }
 

@@ -2,18 +2,32 @@ import React from 'react';
 import {Field, reduxForm} from "redux-form";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import {ChangeField, removeState} from "../../store/GameReduser";
-import {createField} from "../common";
+import {ChangeField, removeState} from "../../../store/GameReduser";
+import {createField} from "../../common";
+import styled from 'styled-components';
 
-const GameForm = ({ChangeField, ...props}) => {
+const StyledGameFrom = styled.div`
+  display: inline-block;
+  width: 500px;
+`
+
+
+const GameForm = (props) => {
+
+  let {ChangeField, size} = props;
 
   const handleSubmit = (value) => {
     ChangeField(value.setSizeGame)
   };
   const removeState = () => {
-    props.removeState({gameStateArray: createField(props.size), player: 'X', countStep: 0, size: props.size,winArray:[]})
+    props.removeState({gameStateArray: createField(size), player: 'X', countStep: 0, size, winArray: []})
   };
-  return <ReduxForm onSubmit={handleSubmit} removeState={removeState}/>
+
+  return (
+    <StyledGameFrom>
+      <ReduxForm onSubmit={handleSubmit} removeState={removeState}/>
+    </StyledGameFrom>
+  )
 
 };
 
@@ -21,7 +35,10 @@ const mapStateToProps = (state) => ({
   size: state.GameReducer.size
 });
 
-const Form = ({handleSubmit, removeState, ...props}) => {
+const Form = (props) => {
+
+  let {handleSubmit, removeState} = props;
+
   return (
     <>
       <form onSubmit={handleSubmit}>

@@ -2,13 +2,12 @@ import React from 'react';
 import CrossItem from "./CrossItem";
 import styled from "styled-components";
 
-
-const Cross = ({color = 'black' ,...props}) => {
-  const StyledCross = styled.div`
+const StyledCross = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
 `;
+const Cross = ({color = 'black' ,...props}) => {
 
   return (
     <StyledCross>

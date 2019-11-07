@@ -1,12 +1,12 @@
 import React from 'react';
 import {StyledGameForm, StyledInfoTableContainer} from "../styled/Styled";
-import CellsContainer from "./CellContainer";
-import InfoTable from "./InfoTable";
+import CellsContainer from "./Cells/CellContainer";
+import InfoTable from "./InfoTable/InfoTable";
 import {connect} from "react-redux";
-import GameForm from "./GameForm";
+import GameForm from "./GameForm/GameForm";
 import styled from "styled-components";
-import ColorPickerContainer from "./ColorPickerContainer";
-import ScoreTableContainer from "./ScoretableContainer";
+import ColorPickerContainer from "./ColorPicker/ColorPickerContainer";
+import ScoreTableContainer from "./ScoreTable/ScoretableContainer";
 
 
 const GameBox = (props) => {
@@ -33,6 +33,7 @@ const GameBox = (props) => {
       <StyledGameForm>
         <GameForm/>
       </StyledGameForm>
+
       <ColorPickerContainer player='X'/>
       <ColorPickerContainer player='0'/>
     </>

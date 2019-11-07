@@ -1,8 +1,8 @@
 import React from 'react';
 import Cell from "./Cell";
-import {StyledCellsContainer} from "../styled/Styled";
+import {StyledCellsContainer} from "../../styled/Styled";
 import {connect} from "react-redux";
-import {ChangeGameState} from "../../store/GameReduser";
+import {ChangeGameState} from "../../../store/GameReduser";
 
 const checkElemIsEqual = (elem, arr) => {
   return arr.some(item => {
@@ -10,11 +10,8 @@ const checkElemIsEqual = (elem, arr) => {
   })
 }
 
-const CellsContainer = ({gameStateArray, size, countStep, winArray,
-                          GameBoxWidth, GameBoxHeight, colorZero,
-                          colorCross,isWin
-                          ,...otherProps
-                          }) => {
+const CellsContainer = (props) => {
+let {gameStateArray, winArray,  colorZero, colorCross, ...cellData} = props;
 
   const filed = gameStateArray.map((arr, arrIndex) => {
     return arr.map((item, itemIndex) => {
@@ -24,12 +21,8 @@ const CellsContainer = ({gameStateArray, size, countStep, winArray,
       }
       return <Cell key={`${arrIndex}-${itemIndex}`} internalState={item}
                    coordinate={[arrIndex, itemIndex]}
-                   gameStateArray={gameStateArray} size={size}
-                   countStep={countStep}
-                   indexI={arrIndex} indexJ={itemIndex}
-                   colors={colors} GameBoxWidth={GameBoxWidth} GameBoxHeight={GameBoxHeight}
-                   isWin={isWin}
-                   {...otherProps}/>
+                   gameStateArray={gameStateArray} colors={colors}
+                   {...cellData} {...props} />
     })
   });
 

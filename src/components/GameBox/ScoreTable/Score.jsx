@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-const Score = ({player,score,...props}) => {
 
-  const StyledScore = styled.div`
+const StyledScore = styled.div`
       padding: 10px 0 0 8px;
       display: inline-block;
       border-bottom: 2px solid black;
@@ -11,6 +10,10 @@ const Score = ({player,score,...props}) => {
       width: 47%;
       height: 30px;
 `;
+
+const Score = (props) => {
+
+  const {player,score} = props;
 
   return (
     <StyledScore>

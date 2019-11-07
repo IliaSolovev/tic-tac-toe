@@ -1,14 +1,14 @@
 import React from 'react';
-import Zero from "./Zero";
-import Cross from "./Cross";
+import Zero from "./Cell/Zero/Zero";
+import Cross from "./Cell/Cross/Cross";
 import styled from "styled-components";
 
 
-const Cell = ({
-                internalState, player, ChangeGameState, gameStateArray, coordinate,
-                size, GameBoxWidth, GameBoxHeight, countStep, indexI, indexJ,
-                colors = 'black',isWin, ...otherProps
-              }) => {
+const Cell = (props) => {
+
+  let {internalState, player, ChangeGameState, gameStateArray, coordinate,
+    size, GameBoxWidth, GameBoxHeight, countStep, colors = 'black', isWin,} = props;
+
   const item = internalState === '0'
     ? <Zero color={colors[0]}/> : internalState === 'X'
       ? <Cross color={colors[1]}/> : <></>;
@@ -21,11 +21,11 @@ const Cell = ({
   border: 1px solid black;`;
 
   const setChoice = () => {
-    if(isWin){
+    if (isWin) {
       return 0;
     }
-    ChangeGameState(gameStateArray, player, coordinate, size, countStep, indexI, indexJ);
-  }
+    ChangeGameState(gameStateArray, player, coordinate, size, countStep,);
+  };
 
   return (
     <StyledCell onClick={setChoice}>

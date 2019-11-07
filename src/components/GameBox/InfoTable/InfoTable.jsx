@@ -1,7 +1,7 @@
 import React from 'react';
-import Zero from "./Zero";
-import Cross from "./Cross";
-import {StyledInfoTableItem} from "../styled/Styled";
+import Zero from "../Cells/Cell/Zero/Zero";
+import Cross from "../Cells/Cell/Cross/Cross";
+import {StyledInfoTableItem} from "../../styled/Styled";
 import {connect} from "react-redux";
 
 
