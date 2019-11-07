@@ -1,8 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6fbbd70-03ae-4143-8be8-858ec9dd236f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Cell.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/CellContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ColorPickerContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Cross.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/CrossItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/GameBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/GameForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/InfoTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Score.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoreTableItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/ScoretableContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBox/Zero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styled/Styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/GameReduser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SxRWUosulE6Jw7jb4kFocjvpk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/GameBox" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\tic-tac-toe\src\components\GameBox" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6fbbd70-03ae-4143-8be8-858ec9dd236f" name="Default Changelist" comment="" />
+      <created>1572503291266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572503291266</updated>
+      <workItem from="1572503292518" duration="1385000" />
+      <workItem from="1572504698624" duration="6755000" />
+      <workItem from="1572519509472" duration="11448000" />
+      <workItem from="1572538337110" duration="1293000" />
+      <workItem from="1572543021669" duration="618000" />
+      <workItem from="1572546661701" duration="7151000" />
+      <workItem from="1572605549339" duration="1330000" />
+      <workItem from="1572934759106" duration="1299000" />
+      <workItem from="1572945589724" duration="7687000" />
+      <workItem from="1572954480869" duration="423000" />
+      <workItem from="1572975015575" duration="50000" />
+      <workItem from="1573024700701" duration="231000" />
+      <workItem from="1573060925234" duration="5883000" />
+      <workItem from="1573069769500" duration="2507000" />
+      <workItem from="1573107013374" duration="4716000" />
+      <workItem from="1573128134002" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
